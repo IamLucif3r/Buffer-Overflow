@@ -4,3 +4,5 @@
 
 These are the scripts &amp; methodologies that can be used in Buffer Over Flow Fuzzing and Exploitation
 
+## Buffer Overflow - Everything You Should Know about BOF
+A buffer overflow vulnerability occurs when you give a program too much data. The excess data corrupts nearby space in memory and may alter other data. As a result, the program might report an error or behave differently. Such vulnerabilities are also called buffer overrun.
