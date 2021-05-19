@@ -11,3 +11,12 @@ A buffer overflow vulnerability occurs when you give a program too much data. Th
 - <b>Stack-based</b> buffer overflows are more common, and leverage stack memory that only exists during the execution time of a function.
 
 - <b>Heap-based </b> attacks are harder to carry out and involve flooding the memory space allocated for a program beyond memory used for current runtime operations.
+
+## Steps:
+1. Crash The Application
+2. Find EIP
+3. Control ESP
+4. Identify Bad Characters
+5. Find JMP ESP
+6. Generate Shell Code
+7. Exploit
