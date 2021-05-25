@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import socket, time, sys
-ip = ""   # Add The Target IP here
-port =    # Add the Target Port
+ip = "127.0.0.1"   # Add The Target IP here
+port =  5555  # Add the Target Port
 timeout = 5 
 prefix = ""   # Adjust According to the Input your application is taking in (othervise leave blank).
 string = prefix + "A" * 100
